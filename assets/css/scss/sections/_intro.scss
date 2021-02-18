@@ -1,0 +1,14 @@
+.intro{
+    position: relative;
+    z-index: 1;
+    &__bg{
+        background-color: $bg-color-1;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 30%;
+        border-bottom-left-radius: 100px;
+    }
+}

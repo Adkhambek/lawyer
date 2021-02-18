@@ -1,4 +1,154 @@
 body {
   font-family: 'Caladea', serif;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #E2B358;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.py-10 {
+  padding: 100px 0;
+}
+
+.intro {
+  position: relative;
+  z-index: 1;
+}
+
+.intro__bg {
+  background-color: #FFF0DD;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  border-bottom-left-radius: 100px;
+}
+
+.navbar-brand h1 {
+  color: #333333 !important;
+  font-size: 40px !important;
+}
+
+.navbar-btn {
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.navbar-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.nav-item {
+  margin-right: 20px !important;
+}
+
+.nav-link {
+  font-size: 18px !important;
+  color: #333333 !important;
+}
+
+.hero {
+  z-index: 100;
+}
+
+.hero__title {
+  margin: 30px 0 10px;
+  font-size: 72px;
+}
+
+.hero__subtitle {
+  font-size: 20px;
+}
+
+.hero__link {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 14px 40px !important;
+  margin-top: 30px;
+}
+
+.hero__link:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.hero .card {
+  position: absolute;
+  top: 10%;
+  left: -15%;
+  border: none !important;
+  width: 230px !important;
+  padding: 24px 16px;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 10px 30px -10px rgba(41, 40, 0, 0.2);
+          box-shadow: 0 10px 30px -10px rgba(41, 40, 0, 0.2);
+}
+
+.hero .card-header {
+  background-color: #ffffff !important;
+  border: none !important;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.hero .card__author-avatar {
+  width: 60px !important;
+}
+
+.hero .card .star__count {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 5px !important;
+}
+
+.hero .card .blockquote p {
+  color: #9B9B9B;
+  margin-bottom: 20px;
+}
+
+.hero .card .blockquote-footer {
+  color: #333333;
+  font-size: 24px;
+}
+
+.hero .truth-box {
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  border-radius: 16px;
+  background-color: #E2B358;
+  bottom: 10%;
+  right: -10%;
+}
+
+.hero .truth-box img {
+  width: 64px;
 }
 /*# sourceMappingURL=style.css.map */

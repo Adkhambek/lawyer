@@ -1,0 +1,29 @@
+.navbar{
+    &-brand{
+        h1{
+            color: $primary !important;
+            font-size: 40px !important;
+        }
+        
+    }
+    &-btn{
+        font-size: 18px;
+        font-weight: normal;
+        @include border;
+        &:hover{
+            background-color: #000000;
+            color: #ffffff;
+            border: 1px solid transparent;
+        }
+    }
+}
+
+.nav{
+    &-item{
+        margin-right: 20px !important;
+    }
+    &-link{
+        font-size: 18px !important;
+        color: $primary !important;
+    }
+}

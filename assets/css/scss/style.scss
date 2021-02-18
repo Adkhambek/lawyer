@@ -1,6 +1,7 @@
-body {
-    font-family: 'Caladea', serif;
-}
-a{
-    text-transform: uppercase;
-}
+@import 'variables';
+@import 'mixins';
+@import 'resets';
+@import 'utilities';
+@import 'sections/intro';
+@import 'sections/nav';
+@import 'sections/hero';

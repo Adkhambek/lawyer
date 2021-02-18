@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LWR</title>
     <link rel="stylesheet" href="./assets/css/fonts/stylesheet.css">
-    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <section class="intro">
+        <div class="intro__bg"></div>
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container d-flex">
                 <a class="navbar-brand text-uppercase" href="#">
@@ -37,13 +38,53 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                    <a href="#" class="navbar-btn btn btn-outline-dark text-uppercase">appointment</a>
+                    <a href="#" class="navbar-btn btn btn-lg text-uppercase">appointment</a>
                 </div>
 
             </div>
         </nav>
+        <div class="hero py-10">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-5 hero__content">
+                        <h2 class="hero__suptitle">lawyer</h2>
+                        <h1 class="hero__title">Finding Out the Truth, Arguing and Winning</h1>
+                        <p class="hero__subtitle">The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime.</p>
+                        <a href="#" class="hero__link btn btn-lg">Explore</a>
+                    </div>
+                    <div class="col-lg-5 ">
+                        <div class="hero__photo position-relative">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <img src="./assets/images/quot-author.png" alt="quot" class="card__author-avatar">
+                                    <div class="star d-flex align-items-center">
+                                        <p class="star__count m-0">4,9</p>
+                                        <img src="./assets/images/icon/Star.png" alt="star">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p>"Power to raise and purify our thoughts like a strain."</p>
+                                        <footer class="blockquote-footer">Nout Golstein</footer>
+                                      </blockquote>
+                                </div>
+                                
+                            </div>
+                            <div class="truth-box d-flex justify-content-center align-items-center">
+                                <img src="./assets/images/icon/truth.png" alt="truth icon">
+                            </div>
+                            <img src="./assets/images/lawyer/lawyer.png" class="img-fluid" alt="lawyer">
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </section>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="./assets/lib/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

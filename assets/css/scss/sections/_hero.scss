@@ -1,0 +1,67 @@
+.hero{
+    z-index: 100;
+    &__title{
+        margin: 30px 0 10px;
+        font-size: 72px;
+    }
+    &__subtitle{
+        font-size: 20px;
+    }
+    &__link{
+        background-color: $primary;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 14px 40px !important;
+        margin-top: 30px;
+        &:hover{
+            color: #ffffff;
+            background-color: #000000;
+        }
+    }
+    .card{
+        position: absolute ;
+        top: 10%;
+        left: -15%;
+        border: none !important;
+        width: 230px !important;
+        padding: 24px 16px;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px -10px rgba(41, 40, 0, 0.2);
+        
+        &-header{
+            background-color: #ffffff !important;
+            border: none !important;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+        &__author-avatar{
+            width: 60px !important;
+        }
+        .star__count{
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 5px !important;
+        }
+        .blockquote p{
+            color: #9B9B9B;
+            margin-bottom: 20px;
+        }
+        .blockquote-footer{
+            color: $primary;
+            font-size: 24px;
+        }
+    }
+    .truth-box{
+        position: absolute;
+        width: 112px;
+        height: 112px;
+        border-radius: 16px;
+        background-color: $secondary;
+        bottom: 10%;
+        right: -10%;
+
+        img{
+            width: 64px;
+        }
+    }
+}
