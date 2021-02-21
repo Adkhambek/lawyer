@@ -2,31 +2,51 @@
     z-index: 100;
     &__title{
         margin: 30px 0 10px;
-        font-size: 72px;
+        font-size: 30px;
+        @media (min-width: $mobile){
+            font-size: 40px;     
+        }
+        @media (min-width: $large){
+            font-size: 72px;     
+        }
     }
     &__subtitle{
-        font-size: 20px;
+        font-size: 10px;
+        @media (min-width: $mobile){
+            font-size: 18px;     
+        }
+        @media (min-width: $large){
+            font-size: 20px;     
+        }
     }
     &__link{
         background-color: $primary;
         color: #ffffff;
         font-size: 18px;
-        padding: 14px 40px !important;
+        padding: 8px 16px !important;
         margin-top: 30px;
         &:hover{
             color: #ffffff;
             background-color: #000000;
         }
+        @media (min-width: $mobile){
+            padding: 10px 20px !important;     
+        }
+        @media (min-width: $large){
+            padding: 14px 40px !important;    
+        }
+    }
+    .hero__photo{
+        width: 70%;
+        margin: 0 auto;
+        @media (min-width: $mobile){
+           width: 90px;   
+        }
+        @media (min-width: $large){
+            width: 100%;    
+        } 
     }
     .card{
-        position: absolute ;
-        top: 10%;
-        left: -15%;
-        border: none !important;
-        width: 230px !important;
-        padding: 24px 16px;
-        border-radius: 16px;
-        box-shadow: 0 10px 30px -10px rgba(41, 40, 0, 0.2);
         
         &-header{
             background-color: #ffffff !important;
@@ -50,18 +70,35 @@
             color: $primary;
             font-size: 24px;
         }
+        @media (min-width: $mobile){
+            position: absolute ;
+            top: 10%;
+            left: -15%;
+            border: none !important;
+            width: 230px !important;
+            padding: 24px 16px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px -10px rgba(41, 40, 0, 0.2);
+        }
     }
     .truth-box{
-        position: absolute;
-        width: 112px;
-        height: 112px;
-        border-radius: 16px;
-        background-color: $secondary;
-        bottom: 10%;
-        right: -10%;
-
+        display: none;
         img{
             width: 64px;
+            display: none;
+        } 
+       
+        @media (min-width: $mobile){
+            position: absolute;
+            width: 112px;
+            height: 112px;
+            border-radius: 16px;
+            background-color: $secondary;
+            bottom: 10%;
+            right: -10%; 
+            img{
+                display: block;
+            } 
         }
     }
 }
